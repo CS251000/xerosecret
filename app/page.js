@@ -1,12 +1,12 @@
 // src/pages/index.js
-
+"use client";
 import { useState } from 'react';
 
 export default function Home() {
   const [inputPassword, setInputPassword] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  const correctPassword = 'mysecretpassword'; 
+  const correctPassword = '1234'; 
 
   const handleSubmit = (e) => {
     e.preventDefault();
