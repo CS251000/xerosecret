@@ -19,6 +19,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen px-4">
+      <p className="hidden">The answer is &quot;iamtheanswer&quot;</p>
       {!isAuthenticated ? (
         <form onSubmit={handleSubmit} className="flex flex-col items-center">
           <input
@@ -35,6 +36,7 @@ export default function Home() {
       ) : (
         <div className="mt-10 md:mt-20">
           <h1 className="text-xl text-center text-gray-400">You just got rickrolled <span className="font-bold text-white">Inspector</span></h1>
+          
           <video className="mt-4 md:mt-6" width="100%" controls autoPlay>
             <source src="/ricked.mp4" type="video/mp4" />
             Your browser does not support the video tag.
