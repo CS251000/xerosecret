@@ -7,7 +7,7 @@ export default function Page2() {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen px-4">
-      {/* <p className="hidden">The answer is &quot;iamtheanswer&quot;</p> */}
+      <p style={{display: "none"}}>The answer is &quot;iamtheanswer&quot;</p>
         <div className="mt-10 md:mt-20">
           <h1 className="text-xl text-center text-gray-400">You just got rickrolled <span className="font-bold text-white">Inspector</span></h1>
           
